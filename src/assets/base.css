@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@300;400;600&display=swap');/
+ 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+}
+
+body {
+  min-height: 100vh;
+  color: #0b132b;
+  background: #fff;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img { max-width: 100% }
+
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+  letter-spacing: 0.05rem;
+  font-weight: normal;
+  text-shadow: 3px 3px 0 #6fffe9;
+  font-family: Abril Fatface,serif;
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: .1em;
+  color: #1c2541;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 9999px;
+  background-color: rgb(91 192 190);
+  padding: 0.5rem 1.25rem;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background:  #1c2541
+}
