@@ -83,7 +83,15 @@ const myCats = [
         "image": "bianca.jpg",
         "funFact": "The prettiest & smartest of them all" 
     },
-
+    {
+        "id": 10,
+        "name": "Fern",
+        "yearBorn": 2021,
+        "monthBorn": 2,
+        "color": "Orange Mackeral Tabby",
+        "image": "fern.jpg",
+        "funFact": "Feral turned lover, mama to Toasty, Bianca, Fievel" 
+    },
 ]
 
 export { myCats }

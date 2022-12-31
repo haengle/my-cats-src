@@ -36,4 +36,10 @@ import CardVue from '../components/Card.vue';
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
+
+  @media screen and (min-width: 1170px) {
+    .cardList {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
 </style>
